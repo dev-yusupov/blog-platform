@@ -11,4 +11,7 @@ User model includes following fields
 2. full_name
 3. is_staff (false by default)
 4. is_superuser (false by default)
-5. 
+5. password
+
+Important thing to say!
+User model will be created by inheriting and AbstractUserModel from Django's default auth subapp.
