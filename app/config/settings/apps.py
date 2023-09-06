@@ -19,5 +19,7 @@ INSTALLED_APPS += [
 # Services
 
 INSTALLED_APPS += [
-
+    "accounts"
 ]
+
+AUTH_USER_MODEL = "accounts.User"
