@@ -1,1 +1,1 @@
-from .user_views import UserView
+from .user_views import CreateUserView, CreateTokenView, UserProfileView
